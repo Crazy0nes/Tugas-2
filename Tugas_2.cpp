@@ -104,6 +104,7 @@ int pilihan;
 cin >> pilihan;
 if(pilihan < 1 || pilihan > 5){
     cout << "Pilihan tidak valid, silahkan coba lagi" << endl;
+    system("pause");
     retry = true;
     continue;
 }
